@@ -1,5 +1,4 @@
 #include <iostream>
-#include <fstream>
 
 using namespace std;
 
@@ -54,7 +53,7 @@ char row() // *Function to check Rows
     return (false);
 }
 
-char diagonal()
+char diagonal() // *Function to check digonals
 {
     if (box[0] == box[4] && box[4] == box[8])
     {
@@ -68,7 +67,7 @@ char diagonal()
     return (false);
 }
 
-char checkwin()
+char checkwin() // *Function to check Winner
 {
     if (col())
     {
@@ -85,7 +84,7 @@ char checkwin()
     return (false);
 }
 
-void table()
+void table()  // *Show the table
 {
     system("cls");
     cout << "\n\n\tTic Tac Toe\n\n";
@@ -103,7 +102,7 @@ void table()
     // cout<<"\t"<<"--|---|--"<<endl;
 }
 
-int draw()
+int draw()  
 {
     int ch = 0;
     for (int i = 0; i <= 9; i++)
