@@ -1,3 +1,14 @@
+/*
+ * Stack is a linear data structure which follows a particular order in which the operations are performed. 
+ * The order may be LIFO(Last In First Out) or FILO(First In Last Out).
+ * Stack Functions:
+ *      push()     - Insert Element
+ *      pop()      - Delete Element
+ *      traverse() - Print all Stack Element 
+
+*/
+
+
 #include <iostream>
 
 using namespace std;
